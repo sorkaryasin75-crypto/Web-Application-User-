@@ -4,7 +4,9 @@
   "description": "Production Ready Railway Automation for Telegram Mini App",
   "main": "script.js",
   "scripts": {
-    "start": "node script.js"
+    "start": "node script.js",
+    "build": "npx playwright install --with-deps chromium",
+    "postinstall": "npx playwright install chromium"
   },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
