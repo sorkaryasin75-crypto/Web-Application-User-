@@ -1,7 +1,6 @@
 {
   "name": "railway-telegram-automation",
   "version": "1.0.0",
-  "description": "Production Ready Railway Automation for Telegram Mini App",
   "main": "script.js",
   "scripts": {
     "start": "node script.js",
@@ -9,8 +8,6 @@
     "postinstall": "npx playwright install chromium"
   },
   "dependencies": {
-    "@faker-js/faker": "^8.4.1",
-    "playwright": "^1.42.1",
-    "user-agents": "^1.1.1"
+    "playwright": "^1.42.1"
   }
 }
